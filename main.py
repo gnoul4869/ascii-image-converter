@@ -48,7 +48,7 @@ def save_ascii_art_to_file(ascii_art, filename):
 def main():
     img = Image.open('image.jpg')
 
-    # url = 'https://media.discordapp.net/attachments/928115805789499412/1004711472737304587/copycat.jpg'
+    # url = 'image link here'
     # img = Image.open(requests.get(url, stream=True).raw)
 
     filename = re.sub(r'(\.\w+)$', '', img.filename)
