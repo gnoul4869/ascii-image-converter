@@ -9,9 +9,6 @@ ASCII_CHARACTERS_BY_SURFACE = "`^\",:;Il!i~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmw
 # Maximum brightness will be 765 (255 + 255 + 255)
 MAX_PIXEL_BRIGHTNESS = 255 * 3
 
-# response = requests.get(
-#     'https://media.discordapp.net/attachments/988299242315591700/988504645175492628/sf_vi.jpg?width=1618&height=910')
-
 
 def convert_pixel_to_ascii_char(px):
     (r, g, b) = px
