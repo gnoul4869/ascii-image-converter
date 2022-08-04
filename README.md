@@ -1,3 +1,3 @@
 # ASCII Image converter
 
-Convert Image to ASCII
+Convert image to ASCII
